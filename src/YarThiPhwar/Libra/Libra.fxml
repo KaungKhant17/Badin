@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="LibraPane" prefHeight="420.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="YarThiPhwar.Libra.LibraController">
+   <children>
+      <VBox layoutX="80.0" layoutY="80.0" prefHeight="420.0" prefWidth="640.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="90.0" prefWidth="600.0">
+               <children>
+                  <Label prefHeight="31.0" prefWidth="184.0" text=" Libra – တူရာသီဖြား ">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="307.0" prefWidth="600.0">
+               <padding>
+                  <Insets bottom="10.0" left="20.0" top="10.0" />
+               </padding>
+               <children>
+                  <TextArea editable="false" prefHeight="235.0" prefWidth="590.0" text="ပင္ကိုယ္သဘာ၀ႏွင့္အက်င့္စ႐ုိက္လကၡဏာမ်ား&#10;&#10;    တူ ရာသီဖြားတုိ႔သည္ စိတ္ ခံစားမႈကို အထူးဦးစားေပးသူမ်ားျဖစ္ၾက၏။ ႏွလံုးသားခံစားမႈ အတုိင္း &#10;ဘ၀ ကိုေလွ်ာက္ လွမ္းၾက၏။ ခံစားခ်က္ျပင္းထန္သူမ်ား ျဖစ္ၾက၏။ တူ ရာသီဖြား တုိ႕၏ ဘ၀တြင္ &#10;လြမ္းေမာဖြယ္ရာ အျဖစ္ အပ်က္မ်ားျဖင့္ ျပည့္ႏွက္ေနတတ္၏။&#10;အႏုပညာ ခံစားမႈ အင္အားျပင္းထန္၏။ အလွအပႀကိဳက္၏။ အသန္႕ အျပန္႕၊ အေကာင္းအမြန္ &#10;ကိုလည္း သူမ်ားထက္ ပိုမက္ေမာၾက၏။ အထူးသျဖင့္ တူ ရာသီဖြားတို႔သည္ တစ္ခု မဟုတ္ တစ္ခု&#10; ညႇိဳ႕ဓာတ္အားေကာင္းတတ္ၾက၏။ ေဘးလူေတြက ခ်စ္ခင္ၾကည္ညိဳတတ္ၾက၏။&#10;တူ ရာသီဖြားတို႔ ကိုယ္တိုင္ ကလည္း လူေပါင္း ဆန္႔၏။ ခင္မင္မႈႏွင့္ ခ်စ္ေမတၱာသံေယာဇဥ္ကို &#10;အေလး အနက္ ထား၏။ အလြန္ သိမ္ေမြ႕ေသာ ႏွလံုးသား ပုိင္ရွင္မ်ားျဖစ္ၾက၏။ သို႔ေသာ္ ေဒါသျဖစ္က&#10; ဘာမွ် မျမင္တတ္ ၾကေတာ့ေခ်။ ထုိ႕အျပင္ ေငြ အသံုးၾကမ္းသူမ်ားလည္း ျဖစ္တတ္ၾက၏။&#10;အထူး သတိျပဳရန္မွာ တူ ရာသီဖြားတုိ႔သည္ စိတ္ႏုတတ္သည္။ စိတ္ ထိခိုက္လြယ္သည္။ အျပင္ပန္း&#10; ဘာမွ မျဖစ္ သလုိ ဟန္ေဆာင္ထားေသာ္လည္း စိတ္ထဲက ထိခိုက္ ခံစားရတာ၊ စိတ္ေကာက္ &#10;မိတာမ်ိဳး မသိမသာျဖစ္တတ္၏။ ၎ စ႐ုိက္ကိုလည္း လူမသိေအာင္ ဖံုးကြယ္ထားလိုတတ္၏ ။&#10;ျပင္သင့္၏။ ထုိ႔အျပင္ အယံုလြယ္ တတ္၏။ အေပ်ာ္အပါး တြင္ ၀ါသနာ ထံုတတ္ျခင္းကိုလည္း&#10; ျပင္သင့္၏။&#10;">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextArea>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="140.0" prefWidth="600.0">
+               <children>
+                  <JFXButton fx:id="backLibraBtn" buttonType="RAISED" onAction="#loadYarThiView" prefHeight="31.0" prefWidth="70.0" style="-fx-background-color: #40e0d0;" text="Back">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

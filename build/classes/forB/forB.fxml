@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="bPane" prefHeight="420.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="forB.ForBController">
+   <children>
+      <VBox layoutX="10.0" layoutY="10.0" prefHeight="420.0" prefWidth="640.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="90.0" prefWidth="600.0">
+               <children>
+                  <Label prefHeight="31.0" prefWidth="68.0" text="ဘီ​ေသြး">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="307.0" prefWidth="600.0">
+               <padding>
+                  <Insets bottom="10.0" left="20.0" top="10.0" />
+               </padding>
+               <children>
+                  <TextArea prefHeight="235.0" prefWidth="590.0" text="အေျခခံ စိတ္ေနသေဘာထား&#10;     ဘီေသြး ပိုင္ရွင္တို့သည္ မိမိတို့ စိတ္ခ်မ္းသာသလို ေနထိုင္ျပဳမူ တတ္ၾကသည္။ခ်ဳပ္ခ်ယ္မႈ မခံယူလုိဘဲ&#10;လြတ္လြတ္လပ္လပ္ ေနလိုစိတ္ ျပင္းျပသူမ်ား ျဖစ္၏။&#10;&#10;ေငြေၾကးရွာေဖြသံုးစြဲျခင္း&#10;     ဘီေသြးပိုင္ရွင္ တို့သည္ ေငြသံုးစြဲပံု ႏွစ္မ်ဳိး ရွိတတ္ၾကသည္။ မိမိႀကိဳက္ႏွစ္သက္ ရာ ကိစၥအတြက္ &#10;သို့မဟုတ္ ပစၥည္းအတြက္ ဆုိလွ်င္ ေငြမည္မွ် ကုန္ပါေစ၊ ႏွေျမာတြန့္တိုျခင္း မရွိၾကဘဲ မိမိအတြက္&#10;ေပ်ာ္ရႊင္မႈ မေပးႏုိင္သည့္ အေၾကာင္းအရာမ်ား အတြက္မူ ေငြကုန္ခံရန္ လြန္စြာ တြန့္တိုတတ္ၾကသည္။ &#10;ထုိသူမ်ား အေနျဖင့္ မွ်မွ်တတ စဥ္းစားခ်င့္ခ်ိန္၍ ေငြသံုးစြဲတတ္ရန္ လုိသည္။ &#10;&#10;အခ်စ္ေရး&#10;     ဘီေသြးပိုင္ရွင္ တို႔သည္ တစ္ခါတစ္ရံ အခ်စ္ကို ေပါ့ေပါ့ဆဆ သေဘာထား တတ္ၾက၏။ &#10;မိမိကုိယ္ မိမိသာ ပိုမိုခင္တြယ္တတ္ ဦးစားေပးတတ္ သျဖင့္ ခ်စ္သူ၏ ၿငီးေငြ႕ျခင္းကို ခံရတတ္သည္။&#10;ထိုအခ်က္မ်ဳိးကို ဘီေသြးပိုင္ရွင္တို့ ဆင္ျခင္သင့္သည္။ ">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextArea>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="140.0" prefWidth="600.0">
+               <children>
+                  <JFXButton fx:id="bBackBtn" buttonType="RAISED" onAction="#loadbBackView" prefHeight="29.0" prefWidth="70.0" style="-fx-background-color: #40e0d0;" text="Back">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

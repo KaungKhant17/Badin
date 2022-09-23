@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="420.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NetKhat.NetKhatController">
+   <children>
+      <StackPane fx:id="netKhatPane" prefHeight="420.0" prefWidth="640.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox prefHeight="420.0" prefWidth="640.0">
+               <children>
+                  <HBox prefHeight="80.0" prefWidth="640.0" />
+                  <HBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                     <children>
+                        <Label text="ေမြးသကၠရာဇ္ :">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <JFXTextField fx:id="netKhatbirthDateField" focusTraversable="false" labelFloat="true" maxWidth="156.0" minWidth="145.0" prefHeight="35.0" prefWidth="145.0" promptText="ျမန္မာခုႏွစ္">
+                           <cursor>
+                              <Cursor fx:constant="DISAPPEAR" />
+                           </cursor>
+                        </JFXTextField>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="60.0" prefWidth="600.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="netKantbackBtn" buttonType="RAISED" focusTraversable="false" onAction="#loadNetKhatMenuView" prefHeight="30.0" prefWidth="69.0" style="-fx-background-color: #40e0d0;" text="Back">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton fx:id="netKahtBtn" buttonType="RAISED" focusTraversable="false" onAction="#loadNetKahtView" prefHeight="30.0" prefWidth="70.0" style="-fx-background-color: #40e0d0;" text="Next">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </JFXButton>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>

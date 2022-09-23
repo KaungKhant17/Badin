@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="Apane" prefHeight="420.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="forA.ForAController">
+   <children>
+      <VBox prefHeight="420.0" prefWidth="640.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="90.0" prefWidth="600.0">
+               <children>
+                  <Label prefHeight="31.0" prefWidth="68.0" text="ေအ​ေသြး">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="307.0" prefWidth="600.0">
+               <padding>
+                  <Insets bottom="10.0" left="20.0" top="10.0" />
+               </padding>
+               <children>
+                  <TextArea prefHeight="235.0" prefWidth="590.0" text="အေျခခံ စိတ္ေနသေဘာထား&#10;     ေအေသြး ပိုင္ရွင္တို့သည္စိတ္လႈပ္ရွားလြယ္၊စိတ္ထိခုိက္လြယ္၍ ေဝဖန္ခံႏုိင္မွဳ စြမ္းရည္နည္းသည္။&#10;&#10;ေငြေၾကးရွာေဖြသံုးစြဲျခင္း&#10;     ေအေသြး ပိုင္ရွင္တို့သည္ ေငြအသံုး လြယ္တတ္သည္။ အိုေသြးပိုင္ရွင္ တုိ့ကဲ့သို့ ျပင္းျပင္းထန္ထန္&#10;ရွာေဖြစုေဆာင္းျခင္း ျပဳေလ့မရွိၾက။ယင္းတို့အေနျဖင့္ ေငြကိုႀကိဳတင္ စုေဆာင္းထားေသာ &#10;အေလ့အက်င့္ ေမြးျမဴသင့္သည္။ &#10;&#10;အခ်စ္ေရး &#10;     ေအေသြးပိုင္ရွင္ တို့သည္ အခ်စ္ႀကီး တတ္သူမ်ား ျဖစ္၏။ တစ္ေယာက္ဆို တစ္ေယာက္ &#10;စြဲစြဲလမ္းလမ္း ျဖစ္တတ္ၾက၏။ ခ်စ္သူႏွင့္ ခြဲရၿပီ ဆိုလွ်င္ အျခားသူမ်ားထက္ ပို၍ ခံစားရေလ့ရွိ၏။&#10;">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextArea>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="140.0" prefWidth="600.0">
+               <children>
+                  <JFXButton fx:id="ABackBtn" buttonType="RAISED" onAction="#loadABackView" prefHeight="31.0" prefWidth="70.0" style="-fx-background-color: #40e0d0;" text="Back">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

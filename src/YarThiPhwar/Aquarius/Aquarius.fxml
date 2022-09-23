@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="AquariusPane" prefHeight="420.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="YarThiPhwar.Aquarius.AquariusController">
+   <children>
+      <VBox layoutX="40.0" layoutY="40.0" prefHeight="420.0" prefWidth="640.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="90.0" prefWidth="600.0">
+               <children>
+                  <Label prefHeight="31.0" prefWidth="184.0" text="Aquarius – ကံုရာသီဖြား ">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="307.0" prefWidth="600.0">
+               <padding>
+                  <Insets bottom="10.0" left="20.0" top="10.0" />
+               </padding>
+               <children>
+                  <TextArea editable="false" prefHeight="235.0" prefWidth="590.0" text="ပင္ကိုယ္သဘာ၀ႏွင့္အက်င့္စ႐ုိက္လကၡဏာမ်ား&#10;&#10;     ကုမ္ ရာသီဖြား တုိ႕သည္ ပင္ကိုယ္ စိတ္ဓါတ္ ျဖဴစင္ျမင့့္ျမတ္သူမ်ားျဖစ္၏။ ဉာဏ္ပညာ အလြန္ &#10;ထက္ျမက္သူမ်ားျဖစ္၏။ အထူး သျဖင့္ အတြက္ အခ်က္ ပညာတုိ႔တြင္ ပါရဂူေျမာက္ေအာင္ ထူးခြၽန္&#10;တတ္ၾက၏။ မည္သည့္ ကိစၥမဆုိ ယုတၱိက်က် က်ိဳးေၾကာင္းတိက်စြာ ေတြးေခၚယူဆႏုိင္စြမ္း&#10;ရွိၾကသည္။ျဖတ္ထုိးညာဏ္ အလြန္ေကာင္း၏။ အေနအထုိင္၊ အစားအေသာက္ က်စ္လစ္၏။ သစၥာ &#10;ရွိ၏။ စကားနည္း ၏။ သီးသီးသန္႕သန္႕ႏွင့္ ေအးေအး ခ်မ္းခ်မ္း ေနတတ္၏။ သူတစ္ပါးကို အေႏွာက္&#10;အယွက္ လံုး၀ မေပးတတ္ပါ။ ကိုယ္ တာ၀န္ယူထားေသာ ကိစၥမာ်းကို အၿပီးေဆာင္ရြက္တတ္ၾက၏။ &#10;မည္သည့္ ကိစၥမဆုိ အပင္ပန္းခံၿပီး လုပ္တတ္ၾက၏။&#10;စည္းစနစ္ႏွင့္ သံုးစြဲသျဖင့္ ႏွေျမာ သလုိ အထင္ခံၾကရတတ္၏။ အအိပ္ စံုမက္၏။ ပ်င္းရိစိတ္ &#10;၀င္လာက ဘာမွ မလုပ္ဘဲ ေနတတ္၏။ အလွအပ အထူးႀကိဳက္၏။ အလွအပျမင္သမွ် &#10;သေဘာက်တတ္၏။&#10;ပင္ကိုယ္ စိတ္ဓါတ္ တည္ၾကည္၏။ ထက္ျမက္၏။ သစၥာရွိ၏။ ဘ၀တြင္ အေျပာင္းအလဲမ်ားစြာ&#10; ၾကံဳရတတ္ ၏။ ဘ၀တြင္ အၿမဲတမ္း လႈပ္ရွား ရွင္သန္ေနရ၏။ အနစ္နာခံ၊ အပင္ပန္းခံ၊ အႏြံတာခံၿပီး&#10; ႀကိဳးစားၾကရ တတ္၏။ ကိုယ္တုိင္ကလည္း မလုပ္ဘဲေနလွ်င္သာ ၿငိမ္ေနတတ္ၿပီး လုပ္ၿပီ ဆုိက &#10;သူမ်ားထက္ သြက္လက္ထက္ျမက္၏။">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextArea>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="140.0" prefWidth="600.0">
+               <children>
+                  <JFXButton fx:id="backAquariusBtn" buttonType="RAISED" onAction="#loadNetKhatView" prefHeight="30.0" prefWidth="70.0" style="-fx-background-color: #40e0d0;" text="Back">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

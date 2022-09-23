@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="bingaPane" prefHeight="420.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MaHarBoke.bingaPhwar.BingaPhwarController">
+   <children>
+      <VBox layoutX="20.0" layoutY="20.0" prefHeight="420.0" prefWidth="640.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="90.0" prefWidth="600.0">
+               <children>
+                  <Label prefHeight="31.0" prefWidth="85.0" text="ဘဂၤဖြား">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="307.0" prefWidth="600.0">
+               <padding>
+                  <Insets bottom="10.0" left="20.0" top="10.0" />
+               </padding>
+               <children>
+                  <TextArea editable="false" prefHeight="235.0" prefWidth="590.0" text="     ဘ၀တြင္ ဆံုးရွံဳးမွဳမ်ားကို မၾကာခဏၾကံဳေတြ႕ရတတ္ ဆံုးရွံဳးသည့္အခါမ်ားတြင္လည္း စိတ္အားတင္းျပီး&#10;အလူးအလဲျပန္ထေလ့ရွိ မေအာင္ျမင္ခင္မွာလည္း တျခားသူမ်ားႏွင့္မတူ အၾကိမ္ၾကိမ္ဆံုးရွံဳးတတ္ &#10;ေအာင္ျမင္မွဳကိုရရွိလွ်င္လည္း ေအာက္ေျခခိုင္သည့္သူမ်ားျဖစ္ျပီး ေတာ္ရံုေလာက္ႏွင့္ ျပန္မက်ႏိုင္တတ္ပါ။&#10;ထို႕ၾကာင့္ အဓိကလိုအပ္ခ်က္မွာ ဇြဲ ရွိရန္ပင္ျဖစ္သည္။ မေလွ်ာ့ေသာဇြဲရွိျခင္းသည္ပင္ ဘဂၤဖြားတို႕၏ &#10;ရည္မွန္းခ်က္ပန္းတိုင္သို႕တက္ေရာက္ႏိုင္မည့္ တစ္ခုတည္းေသာလမ္းပင္ျဖစ္ေပသည္။ငယ္ရြယ္စဥ္တြင္&#10;ေရာဂါေ၀ဒနာမ်ားမၾကာခဏျဖစ္ေပၚတတ္ျပီး က်မ္းမာေရးေရွာင္တခင္ညံ့တတ္သည္။ ဘဂၤဖြားတို႕သည္ &#10;အလြန္ပူပင္တတ္ စိုးရိမ္တတ္သူမ်ားျဖစ္သည္။&#10;">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextArea>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="140.0" prefWidth="600.0">
+               <children>
+                  <JFXButton fx:id="backBtn" buttonType="RAISED" onAction="#loadMaharView" prefHeight="34.0" prefWidth="70.0" style="-fx-background-color: #40e0d0;" text="Back">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

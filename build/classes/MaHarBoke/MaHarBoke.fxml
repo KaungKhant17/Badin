@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="420.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MaHarBoke.MaHarBokeController">
+   <children>
+      <StackPane fx:id="maHarPane" prefHeight="420.0" prefWidth="640.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox prefHeight="420.0" prefWidth="640.0">
+               <children>
+                  <HBox prefHeight="80.0" prefWidth="600.0" />
+                  <HBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                     <children>
+                        <Label text="ေမြးသကၠရာဇ္ :">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <JFXTextField fx:id="birthDateField" focusTraversable="false" labelFloat="true" maxWidth="156.0" minWidth="145.0" prefHeight="35.0" prefWidth="145.0" promptText="ျမန္မာခုႏွစ္">
+                           <font>
+                              <Font size="12.0" />
+                           </font>
+                        </JFXTextField>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="40.0">
+                     <children>
+                        <Label text="ေန႕နံ :">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <ComboBox fx:id="cboDayBox" prefHeight="25.0" prefWidth="100.0" promptText="ေရြးပါ" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="60.0" prefWidth="600.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="backBtn" buttonType="RAISED" focusTraversable="false" onAction="#loadMenuView" prefHeight="30.0" prefWidth="70.0" style="-fx-background-color: #40e0d0;" text="Back">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton fx:id="maHarNextBtn" buttonType="RAISED" focusTraversable="false" onAction="#loadMaharBokeView" prefHeight="30.0" prefWidth="70.0" style="-fx-background-color: #40e0d0;" text="Next">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </JFXButton>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>

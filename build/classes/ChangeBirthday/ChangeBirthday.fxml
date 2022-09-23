@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="changePane" prefHeight="380.0" prefWidth="620.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ChangeBirthday.ChangeBirthdayController">
+   <children>
+      <VBox layoutX="20.0" layoutY="20.0" prefHeight="380.0" prefWidth="620.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="60.0" prefWidth="600.0" />
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <Label text="ေမြးသကၠရာဇ္">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <JFXTextField fx:id="changeBirthDateField" focusTraversable="false" maxWidth="156.0" minWidth="110.0" prefHeight="35.0" prefWidth="110.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="60.0" prefWidth="600.0">
+               <children>
+                  <ComboBox fx:id="cYearMonthBox" prefHeight="26.0" prefWidth="100.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="60.0" prefWidth="600.0">
+               <children>
+                  <JFXTextField fx:id="cYearDayField" maxWidth="110.0" minWidth="110.0" prefHeight="32.0" prefWidth="110.0" />
+               </children></HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="60.0" prefWidth="600.0" spacing="20.0">
+               <children>
+                  <JFXButton fx:id="myanmarYearBtn" buttonType="RAISED" onAction="#loadMyanmarYearView" prefHeight="34.0" prefWidth="100.0" style="-fx-background-color: #40e0d0;" text="ျမန္မာခုႏွစ္သို႕">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="englishYearBtn" buttonType="RAISED" onAction="#loadEnglishYearView" prefHeight="34.0" prefWidth="100.0" style="-fx-background-color: #40e0d0;" text="ခရစ္ႏွစ္သို႕">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="170.0" prefHeight="60.0" prefWidth="600.0" spacing="20.0">
+               <children>
+                  <JFXButton fx:id="backBtn" buttonType="RAISED" onAction="#loadMenuView" prefHeight="30.0" prefWidth="70.0" style="-fx-background-color: #40e0d0;" text="Back">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </JFXButton>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets left="150.0" />
+               </padding>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
